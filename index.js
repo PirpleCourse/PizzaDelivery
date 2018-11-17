@@ -1,4 +1,5 @@
-var server = require('./lib/server');
-var fs = require('fs');
+/*
+ * Starting the Pizza Delivery app from `index.js`
+ */
 
-server.init();
+require('./lib/server').init();
