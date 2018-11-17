@@ -18,10 +18,10 @@ $> node index.js
 
 |  /user | Description               | Payload                                                            | Headers | Querystring | Authorization |
 |-------:|---------------------------|--------------------------------------------------------------------|---------|-------------|---------------|
-| POST   | Add a new user            | (String email), (String password), (String address), (String name) | None    | None        | False         |
-| GET    | Get user information      | None                                                               | token   | email       | True          |
-| PUT    | Modify user information   | (String email), (String address), (String name)                    | token   | None        | True          |
-| DELETE | Delete user from database | (String email)                                                     | token   | None        | True          |
+| POST   | Add a new user            | (String email), (String password), (String address), (String name) | None    | None        | :x:         |
+| GET    | Get user information      | None                                                               | token   | email       | :white_check_mark:          |
+| PUT    | Modify user information   | (String email), (String address), (String name)                    | token   | None        | :white_check_mark:          |
+| DELETE | Delete user from database | (String email)                                                     | token   | None        | :white_check_mark:          |
 
 
 ### Token API
@@ -29,10 +29,10 @@ $> node index.js
 
 | /token | Description                                 | Payload                           | Headers | Querystring | Authorization |
 |-------:|---------------------------------------------|-----------------------------------|---------|-------------|---------------|
-| POST   | Verify auth credentials and get a new token | (String email), (String password) | None    | None        | False         |
-| GET    | Get the current token information.          | None                              | token   | id          | True          |
-| PUT    | Update current token expiry date            | (String id), (Boolean extend)     | token   | None        | True          |
-| DELETE | Delete token from the database              | None                              | token   | id          | True          |
+| POST   | Verify auth credentials and get a new token | (String email), (String password) | None    | None        | :x:         |
+| GET    | Get the current token information.          | None                              | token   | id          | :white_check_mark:          |
+| PUT    | Update current token expiry date            | (String id), (Boolean extend)     | token   | None        | :white_check_mark:          |
+| DELETE | Delete token from the database              | None                              | token   | id          | :white_check_mark:          |
 
 
 ### Menu API
