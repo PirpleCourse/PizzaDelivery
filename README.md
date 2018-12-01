@@ -15,6 +15,13 @@ Images:
 <img width="1003" alt="screen shot 2018-11-30 at 1 02 06 pm" src="https://user-images.githubusercontent.com/18662248/49285649-b09faf80-f4a0-11e8-8ff6-e6af6bfba886.png">
 
 
+### CLI Application Homework #4
+
+This is a Command Line application that would helps you read the data via shell tool you're running the app on
+To view all the allowed commands
+
+Run the application by `node index.js` in the root directory. Then run enter `help` or `man`
+to view the CLI Manual. From there, you can kick off to use any of the given features allowed.
 
 
 ### Local Development/Testing
