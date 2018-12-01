@@ -2,4 +2,7 @@
  * Starting the Pizza Delivery app from `index.js`
  */
 
-require('./lib/server').init();
+var server = require('./lib/server');
+var cli = require('./lib/cli');
+
+server.init().then(cli.init);
